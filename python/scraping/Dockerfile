@@ -15,4 +15,5 @@ USER ${UID}
 # python package
 RUN pip install --upgrade pip && \
 pip install requests && \
+pip install lxml && \
 pip install bs4
