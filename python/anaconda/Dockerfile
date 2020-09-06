@@ -24,4 +24,4 @@ ENTRYPOINT ["jupyter-lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--all
 
 # CMD命令はコンテナ起動時に実行するコマンドを指定（docker runの時に上書きする可能性のあるもの）
 # "--notebook-dir=/workdir" => Jupyter Labのルートとなるディレクトリを指定
-CMD ["--notebook-dir=/workdir"]
+CMD ["--notebook-dir=/root/projects"]
